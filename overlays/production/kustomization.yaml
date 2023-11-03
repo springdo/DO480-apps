@@ -1,0 +1,9 @@
+kind: Kustomization
+
+resources:
+- dbclaim-pvc.yaml
+
+bases:
+  - ../../base
+
+namePrefix: prod-
